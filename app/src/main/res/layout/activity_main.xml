@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.cs442.ssonawa1.myfoodorder.MainActivity"
+    tools:context="russ.xiang.foodtruck.MainActivity"
     android:background="@drawable/background">
     <TextView
         android:id="@+id/heading"
@@ -25,25 +25,11 @@
         android:layout_below="@+id/heading" />
    <fragment
        android:id="@+id/fragment1"
-       android:name="com.cs442.ssonawa1.myfoodorder.MenuFragment"
+       android:name="russ.xiang.foodtruck.ItemsListFragment"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       tools:layout="@layout/fragment_list"
+       tools:layout="@layout/fragment_items_list"
        android:layout_alignParentBottom="true"
        android:layout_below="@+id/history" />
-
-    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/details"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context=".MenuDetailsActivity"
-        android:layout_below="@+id/history">
-
-    </FrameLayout>-->
 
 </RelativeLayout>
