@@ -12,6 +12,11 @@ public class Item implements Serializable {
     private String name;
     private String price;
     private String quantity;
+    private String image;
+
+    public String getImage() {
+        return image;
+    }
 
     public String getQuantity() {
         return quantity;

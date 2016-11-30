@@ -22,7 +22,7 @@ import java.util.List;
 
 public class ItemDetailFragment extends Fragment implements View.OnClickListener {
     private Item item; 
-    Button button1;// instead of btn
+    Button button1;
     EditText new_quantity;
     private View view;
     TextView tvHeader; // includes the item's itemID, name, and price
@@ -79,10 +79,5 @@ public class ItemDetailFragment extends Fragment implements View.OnClickListener
        this.getActivity().setResult(1,intent);
        this.getActivity().finish();
        }
-
-    public void modifyDetails(String title, String description, String price) {
-        tvTitle.setText(title);
-        tvdesc.setText(description);
-    }
 
 }
