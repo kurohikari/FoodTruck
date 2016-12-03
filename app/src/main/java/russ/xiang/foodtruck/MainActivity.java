@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Item item = items.get(position);
 
-                Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+                Intent intent = new Intent(MainActivity.this, ItemDetailActivity.class);
                 
                 intent.putExtra("image", item.getImage());
 
